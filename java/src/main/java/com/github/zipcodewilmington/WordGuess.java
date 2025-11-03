@@ -27,7 +27,8 @@ public class WordGuess
         System.out.println("Lives left " + userLives);
                 
         if (userLives == 0.0) {
-            System.out.println("You Died!");
+            System.out.println("You Died, Loser!");
+            break;
         }
         
         if (userInput.equals("quit")) {
